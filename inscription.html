@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSCRIPTION</title>
+    <link rel="stylesheet" href="inscription.css">
+</head>
+<body>
+    <div class=parent>
+        <div class="fils-0"><input id="searchbar"  type="text"
+          name="search" placeholder="Search ">
+          <input type="submit"value="GO">
+        </div>
+          
+        <div class="fils-1"><div class="logo-fils"><img src="images/logo-renver.png" width="60%" height="80%"></div></div>
+        <div class="fils-2"> 
+            <form method="post" action="traitement.php">
+                <fieldset id="section">
+                <legend>Inscrivez ici vos information</legend>
+                  <label for="Nom">Entrez votre nom :</label>
+                  <input type="text" name="nom" id="nom" required="required"><br>
+                  <label for="Nom">Entrez votre Post-nom :</label>
+                  <input type="text" name="Post-nom" id="Post-nom" required="required"><br>
+                  <label for="Nom">Entrez votre Prenom :</label>
+                  <input type="text" name="Prenom" id="Prenom" required="required"><br>
+                  <label for="Nom">Entrez votre quartier :</label>
+                  <input type="text" name="quartier" id="quartier" required="required"><br>
+                  <label for="Nom">Entrez votre avenue :</label>
+                  <input type="text" name="avenue" id="avenue" required="required"><br>
+                  <label for="Nom">Entrez votre  numéro :</label>
+                  <input type="number" name="num" id="num"><br>
+                  <label for="Nom">Entrez votre num-phon:</label>
+                  <input type="number" name="num-phone" id="num-phone" required="required"><br>
+                  <label for="text">Inserez votre voix :</label>
+                  <select name="voix">
+                  <optgroup>
+                    <option value="1è Voix">1è Voix</option>
+                    <option value="2è Voix">2è Voix"</option>
+                    <option value="3è Voix">3è Voix</option>
+                    <option value="4è Voix">4è Voix</option>
+                  </optgroup><br>
+                </select>
+                     </fieldset>
+            <fieldset id="section">
+                <legend>Inscrivez les informations du responsable</legend>
+                  <label for="Nom">nom :</label>
+                  <input type="text" name="nom" id="nom" required="required"><br>
+                  <label for="Nom">post-nom :</label>
+                  <input type="text" name="Post-nom" id="Post-nom" required="required"><br>
+                  <label for="Nom"> Prenom :</label>
+                  <input type="text" name="Prenom" id="Prenom" required="required"><br>
+                  <label for="Nom">Entrez votre num-phon:</label>
+                  <input type="text" name="num-phone" id="num-phone" required="required"><br> <br>
+                  
+                  <div class="boutton">
+                    <input type="submit"value="Submit">
+                    <input type="submit"value="Edit">
+                    <input type="submit"value="Delete">
+                    <input type="submit"value="Refresh">
+                </div>
+          
+            </fieldset>
+            
+             
+                
+            </form>
+        </div>
+        <div class="fils-3">3</div>
+       
+    </div>
+    
+</body>
+</html>

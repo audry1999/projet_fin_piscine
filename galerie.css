@@ -1,0 +1,48 @@
+header{
+    height: 160px;
+    margin: auto;
+    padding: 10px;
+    padding-left: 25%;
+    background-color:white;
+    margin-bottom: 6px;
+    border-radius: 20px;
+    
+}
+body{
+    padding: 10px 0;
+    background-color: black;
+
+}
+.mon-gallerie{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+    padding: 2 10px;
+    background-color: yellow;
+    padding: 5px;
+
+
+}
+.mon-gallerie li{
+    list-style-type: none;
+    height: 250px;
+    flex-grow: 1;
+}
+.mon-gallerie img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallerie-photo{
+    background-color: black;
+    
+}
+@media  screen and(max-width:780px) {
+    .header img{
+        display: flex;
+        flex-flow: column wrap;
+    }
+    
+}
